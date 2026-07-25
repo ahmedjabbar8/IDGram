@@ -1,4 +1,4 @@
-name: Build and Release IDGram APK
+name: Build IDGram APK
 
 on:
   push:
@@ -19,19 +19,15 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-          cache: 'gradle'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Grant Execute Permission for Gradlew
+      - name: Make gradlew executable
         run: chmod +x gradlew
 
-      - name: Build IDGram APK
-        run: ./gradlew assembleDebug --no-daemon
+      - name: Build APK
+        run: ./gradlew assembleDebug --continue
 
-      - name: Upload IDGram APK Artifact
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: IDGram-APK
-          path: TMessagesProj/build/outputs/apk/**/*.apk
+          path: TMessagesProj/build/outputs/apk/debug/*.apk
