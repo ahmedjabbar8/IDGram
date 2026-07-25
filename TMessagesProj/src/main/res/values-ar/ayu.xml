@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="AyuPreferences">إعدادات IDGram الخاصة</string>
+  <string name="GhostEssentialsHeader">إعدادات وضع الشبح (Ghost Mode)</string>
+  <string name="DontSendReadPackets">عدم قراءة الرسائل (إخفاء صحين القراءة)</string>
+  <string name="DontSendOnlinePackets">إخفاء المتصل الآن (Online)</string>
+  <string name="DontSendUploadProgress">إخفاء جاري الكتابة (Typing...)</string>
+  <string name="SendOfflinePacketAfterOnline">إخفاء الاتصال فور إغلاق التطبيق</string>
+  <string name="MarkReadAfterSend">إرسال القراءة فقط عند الرد</string>
+  <string name="UseScheduledMessages">جدولة الرسائل التلقائية</string>
+  <string name="SpyEssentialsHeader">إعدادات الحفظ والمراقبة</string>
+  <string name="SaveDeletedMessages">حفظ الرسائل المحذوفة</string>
+  <string name="SaveMessagesHistory">حفظ سجل الرسائل المعدلة</string>
+  <string name="MessageSavingBtn">خيارات حفظ الوسائط والرسائل</string>
+  <string name="MessageSavingMediaHeader">الوسائط</string>
+  <string name="MessageSavingSaveMedia">حفظ الوسائط تلقائياً</string>
+  <string name="MessageSavingSaveMediaInPrivateChats">في المحادثات الخاصة</string>
+  <string name="MessageSavingSaveMediaInPublicChannels">في القنوات العامة</string>
+  <string name="MessageSavingSaveMediaInPrivateChannels">في القنوات الخاصة</string>
+  <string name="MessageSavingSaveMediaInPublicGroups">في المجموعات العامة</string>
+  <string name="MessageSavingSaveMediaInPrivateGroups">في المجموعات الخاصة</string>
+  <string name="MessageSavingOtherHeader">خيارات إضافية</string>
+  <string name="MessageSavingSaveFormatting">حفظ التنسيقات</string>
+  <string name="MessageSavingSaveReactions">حفظ التفاعلات (Reactions)</string>
+  <string name="MessageSavingSaveForBots">حفظ رسائل البوتات</string>
+  <string name="QoLTogglesHeader">ميزات احترافية</string>
+  <string name="KeepAliveService">خدمة الإشعارات الفورية لـ IDGram</string>
+  <string name="DisableAds">إلغاء وحظر الإعلانات تماماً</string>
+  <string name="LocalPremium">تفعيل مميزات تليجرام المتقدمة</string>
+  <string name="CustomizationHeader">التخصيص والشكل</string>
+  <string name="DeletedMarkText">علامة الرسائل المحذوفة</string>
+  <string name="EditedMarkText">علامة الرسائل المعدلة</string>
+  <string name="ShowGhostToggleInDrawer">إظهار زر وضع الشبح في القائمة الجانبية</string>
+  <string name="ShowKllButtonInDrawer">إظهار زر إغلاق التطبيق في القائمة</string>
+  <string name="SettingsShowID">إظهار المعرّف (ID)</string>
+  <string name="SettingsShowID_Hide">إخفاء</string>
+  <string name="SettingsRecentStickersCount">عدد الملصقات الأخيرة</string>
+  <string name="RegexFilters">تصفية وفلترة الرسائل</string>
+</resources>
